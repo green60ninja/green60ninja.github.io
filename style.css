@@ -20,7 +20,16 @@ body {
     font-size: 12pt;
   }
 
+  @keyframes example {
+    from {background-color: #bbbbbb;}
+    to {background-color: #cccccc;}
+  }
+
   li:hover {
+    /*background-color: #cccccc;*/
+    animation-name: example;
+    animation-duration: 0.75s;
+    animation-iteration-count: 1;
     background-color: #cccccc;
   }
 
