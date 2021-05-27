@@ -8,6 +8,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 100vw;
     overflow: hidden;
     background-color: #bbbbbb;
   }
@@ -46,4 +47,9 @@ body {
     margin: 10px;
     display: flex;
     justify-content: center;
+  }
+
+  p {
+    text-indent: 2.0em;
+    margin: 10px;
   }
