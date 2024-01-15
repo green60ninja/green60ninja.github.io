@@ -2,7 +2,7 @@ body {
     display: block;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(bg.gif);
+    /* background-image: url(bg.gif); */
   }
 
   h2 {
@@ -54,7 +54,7 @@ body {
     margin: 10px;
     display: flex;
     justify-content: center;
-    color: white;
+    color: black;
   }
 
   p {
