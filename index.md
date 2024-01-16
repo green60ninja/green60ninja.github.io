@@ -7,7 +7,7 @@ Here, you can find information about me, projects I have done, and my résumé.
 <ul>
   {% for post in site.posts %}
     <li>
-      <span>{{ post.date }}</span>
+      <span>{{ post.date | date_to_string }}</span>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
