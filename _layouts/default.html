@@ -3,10 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    
+    <ul class="nav">
+      <li><a href="index.md">Home</a></li>
+      <li><a href="about.md">About</a></li>
+    </ul> 
   </body>
+  <div class="main">
+    {{ content }}
+  </div>
 </html>
 
-{{ content }}

@@ -1,0 +1,30 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    background-color: #dddddd;
+    font-size: 20px;
+    width: 100%;
+    li {
+        display: inline;
+        padding: 10px;
+        
+    }
+    a {
+        text-decoration: none;
+        color: #868686;
+    }
+
+    a:hover {
+        color: black;
+    }
+  }
+
+.main {
+    margin: 10px;
+}
