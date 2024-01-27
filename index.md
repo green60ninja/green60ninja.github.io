@@ -6,8 +6,6 @@ layout: default
 
 Here, you can find information about me, projects I have done, and my résumé.
 
-[About Me](about.md)
-
 <ul>
   {% for post in site.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
