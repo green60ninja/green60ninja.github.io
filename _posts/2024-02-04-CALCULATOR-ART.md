@@ -41,6 +41,6 @@ If any of y'all want the code for these, feel free to ask. But if you want to ex
 
 ***
 
-EDIT: In case you would like to replicate these images on YOUR TI-84, I now have all the .8xp program files [here](../../../assets/calcProg). Here's essentially how I made them.
+EDIT: In case you would like to replicate these images on YOUR TI-84, I now have all the .8xp program files [here](https://github.com/green60ninja/green60ninja.github.io/tree/main/assets/calcProg). Here's essentially how I made them.
 
 I started out with a typical, run-of-the-mill, circle. Each program almost always goes from 0 to 2pi, drawing lines from one location to the location on the circle. If you fiddle around for enough time, and with enough patience, you can create interlocking, mesmerizing patterns. For example, if you want to draw a hexagon, you step every pi/3 (that is, 2pi divided into six subintervals) to have your six-pointed polygon. Or you can skip every other point to get a six-pointed star. Have fun with it!
